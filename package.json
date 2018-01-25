@@ -1,7 +1,7 @@
 {
   "name": "CutePastel-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "A super cute pastel colored theme to make your workflow a little happier ^_^",
   "keywords": [
     "syntax",
@@ -10,7 +10,7 @@
 	"cute",
 	"pretty"
   ],
-  "repository": "https://github.com/atom/my-theme-syntax",
+  "repository": "https://github.com/Anna-Cantrell/cutepastel-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
