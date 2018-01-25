@@ -1,14 +1,14 @@
 {
   "name": "CutePastel-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A super cute pastel colored theme to make your workflow a little happier ^_^",
   "keywords": [
     "syntax",
     "theme",
-	"pastel",
-	"cute",
-	"pretty"
+    "pastel",
+    "cute",
+    "pretty"
   ],
   "repository": "https://github.com/Anna-Cantrell/cutepastel-syntax",
   "license": "MIT",
