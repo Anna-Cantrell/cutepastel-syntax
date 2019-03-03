@@ -70,11 +70,11 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blue;
+    color: @offwhite;
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @lightpurple;
   }
 }
 
@@ -83,30 +83,30 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @lightpurple;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @pastelgreen;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @lightpurple;
   }
 
   &.syntax--other.syntax--color {
-    color: @cyan;
+    color: @pastelgreen;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @pastelblue;
   }
 }
 
 .syntax--variable {
-  color: @red;
+  color: @pink;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: darken(@pink, 10%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -115,24 +115,24 @@ atom-text-editor {
 }
 
 .syntax--invalid.syntax--illegal {
-  background-color: @red;
+  background-color: @pink;
   color: @syntax-background-color;
 }
 
 .syntax--string {
-  color: @green;
+  color: @pastelblue;
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @pastelgreen;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @lightpurple;
     }
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @pink;
   }
 }
 
@@ -151,11 +151,11 @@ atom-text-editor {
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @blue;
+      color: @offwhite;
     }
 
     &.syntax--bold {
-      color: @light-orange;
+      color: @pastelyellow;
       font-weight: bold;
     }
 
@@ -166,70 +166,70 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: darken(@pink, 10%);
   }
 
 }
 
 .syntax--support {
   &.syntax--class {
-    color: @light-orange;
+    color: @pastelyellow;
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: @pastelgreen;
 
     &.syntax--any-method {
-      color: @blue;
+      color: @offwhite;
     }
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @offwhite;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
+    color: @pastelyellow;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @pastelblue;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @pastelyellow;
   }
 
   &.syntax--name.syntax--section {
-    color: @blue;
+    color: @offwhite;
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @pink;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @lightpurple;
 
     &.syntax--id {
-      color: @blue;
+      color: @offwhite;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: @pastelyellow;
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @lightpurple;
   }
 
   &.syntax--require {
-    color: @blue;
+    color: @offwhite;
   }
 
   &.syntax--selector {
@@ -248,7 +248,7 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @lightpurple;
     font-weight: bold;
   }
 
@@ -257,7 +257,7 @@ atom-text-editor {
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @pink;
   }
 
   &.syntax--italic {
@@ -266,30 +266,30 @@ atom-text-editor {
   }
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @blue;
+    color: @offwhite;
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @pastelblue;
   }
 
   &.syntax--list {
-    color: @red;
+    color: @pink;
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @lightpurple;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @pastelblue;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @pastelblue;
   }
 }
 
